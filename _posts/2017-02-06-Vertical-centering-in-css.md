@@ -28,8 +28,19 @@ The text align property requirres that the element is an inline element. The inn
 
 [Preview](https://codepen.io/RakshithNM/full/YWaXRq)
 
+2. Position: absolute;
+----------------------
+
+Relative postioning an element creates a new context for absolute positioning within it. The inner element can be center aligned by postioning it absolutely and then using the top and left properties with the value of 50%. 
+
+![postion](/images/180206vcic_positon.png)
+
+When an element is moved in css, the reference point is the top corner of the element. So when an element is made to be positioned 50% to the top and left the element is offset by half its width and height. You can check this by removing the trasform property from the inner div.
+
 References
 ----------
 
 A. [display property](https://developer.mozilla.org/en-US/docs/Web/CSS/display)  
 B. [display: table-values](https://css-tricks.com/almanac/properties/d/display/#display-table)
+C. [position]()
+D. [transform: translate(x,y);]()

@@ -21,14 +21,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fluffystub
 github_username:  RakshithNM
+profile: github.com/RakshithNM
 
 # Build settings
 markdown: kramdown
 theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
-
-repository: fluffystub/fluffystub.github.io
 
 exclude: [vendor]
 
